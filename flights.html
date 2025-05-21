@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор времени перелета</title>
+    <link rel="stylesheet" href="/AeroTralevs/css/header.css">
+    <link rel="stylesheet" href="/AeroTralevs/css/footer.css">
+    <link rel="stylesheet" href="/AeroTralevs/css/flights.css">
+    <script src="/AeroTralevs/js/form.js"></script>
+    <script src="/AeroTralevs/js/burger.js"></script>
+    <script src="/AeroTralevs/js/form2.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <button class="menu_burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="logoandmenu">
+                <div class="logo">
+                    <a href="/AeroTralevs/html/index.html">
+                        <img src="/AeroTralevs/photo/airplane.svg" alt="">
+                        <span>AeroTralevs</span>
+                    </a>
+                </div>
+
+                <ul class="menu">
+                    <li class="menuitem" id="item1"><a href="/AeroTralevs/html/index.html"><span>Главная</span></a></li>
+                    <li class="menuitem" id="item2"><a href="#info"><span>Инфо</span></a></li>
+                    <li class="menuitem" id="item3"><a href="/AeroTralevs/html/second.html"><span>Билеты </span></a></li>
+                    <li class="menuitem" id="item4"><a href="#social"><span>Контакты</span></a></li>
+                </ul>
+            </div>
+
+            <ul class="menusocial">
+                <li class="socialitem"><a href="https://www.instagram.com/aviasales.by"><img src="/AeroTralevs/photo/instagram.svg" alt="" class="inst"></a></li>
+                <li class="socialitem"><a href="https://www.facebook.com/aviasalesa.by"><img src="/AeroTralevs/photo/facebook.svg" alt="" class="facebook"></a></li>
+                <li class="socialitem"><a href="https://t.me/aviasales_by"><img src="/AeroTralevs/photo/twitter.svg" alt="" class="twi"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Доступные рейсы</h1>
+        <div id="flightResults"></div>
+
+        <div id="bookingForm" style="display: none;">
+            <h2 id="selectedFlight"></h2>
+            <form id="formDetails">
+                <div id="input1">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Иван*" required>
+                </div>
+                <div id="input1">
+                    <label for="surname">Фамилия:</label>
+                    <input type="text" id="surname" name="surname" placeholder="Иванов*" required>
+                </div>
+                <div id="input1">
+                    <label for="dob">Дата рождения:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div id="input1">
+                    <label for="phone">Номер телефона:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+375 (29) 111-11-11*"required>
+                </div>
+                <div id="input1">
+                <button type="submit">Забронировать</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="confirmation" style="display: none;">            
+            <h2>Спасибо за вашу бронь!</h2>
+            <p>Мы свяжемся с вами в ближайшее время.</p>
+            <a href="/AeroTralevs/html/index.html"><button type="submit">На главную</button></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+                <ul class="links">
+                    <li class="link"><a href="#info">О нас</a></li>
+                    <li class="link"><a href="#comanda">Наша команда</a></li>
+                    <li class="link"><a href="/AeroTralevs/html/second.html">Билеты</a></li>
+                    <li class="link"><a href="#social">Контакты</a></li>
+                </ul>
+                <ul class="links" id="link2">
+                    <li class="link"><a href="#info">About us</a></li>
+                    <li class="link"><a href="#comanda">Our team</a></li>
+                    <li class="link"><a href="/AeroTralevs/html/second.html">Tickets</a></li>
+                    <li class="link"><a href="#social">Contacts</a></li>
+                </ul>
+        </div>
+    </footer>
+</body>
+</html>

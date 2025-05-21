@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flights>
+    <flight>
+    <!--  2025-05-09 -->
+        <!-- москва-дубай -->
+        <departure>Москва</departure>
+        <arrival>Дубай</arrival>
+        <date>2025-05-09</date>
+        <time>09:10</time>
+        <price>550</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Дубай</arrival>
+        <date>2025-05-09</date>
+        <time>12:10</time>
+        <price>450</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Дубай</arrival>
+        <date>2025-05-09</date>
+        <time>14:10</time>
+        <price>250</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Дубай</arrival>
+        <date>2025-05-09</date>
+        <time>19:10</time>
+        <price>250</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Дубай</arrival>
+        <date>2025-05-09</date>
+        <time>15:10</time>
+        <price>250</price>
+    </flight>
+    
+    <!-- москва-лондон -->
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Лондон</arrival>
+        <date>2025-05-09</date>
+        <time>14:30</time>
+        <price>750</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Лондон</arrival>
+        <date>2025-05-09</date>
+        <time>16:30</time>
+        <price>750</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Лондон</arrival>
+        <date>2025-05-09</date>
+        <time>18:30</time>
+        <price>750</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Лондон</arrival>
+        <date>2025-05-09</date>
+        <time>20:50</time>
+        <price>750</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Лондон</arrival>
+        <date>2025-05-09</date>
+        <time>22:30</time>
+        <price>750</price>
+    </flight>
+    
+    <!-- москва-париж -->
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Париж</arrival>
+        <date>2025-05-09</date>
+        <time>11:00</time>
+        <price>600</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Париж</arrival>
+        <date>2025-05-09</date>
+        <time>17:00</time>
+        <price>580</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Париж</arrival>
+        <date>2025-05-09</date>
+        <time>21:00</time>
+        <price>620</price>
+    </flight>
+
+    <!-- москва-токио -->
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Токио</arrival>
+        <date>2025-05-09</date>
+        <time>09:30</time>
+        <price>900</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Токио</arrival>
+        <date>2025-05-09</date>
+        <time>12:50</time>
+        <price>850</price>
+    </flight>
+    <flight>
+        <departure>Москва</departure>
+        <arrival>Токио</arrival>
+        <date>2025-05-09</date>
+        <time>16:20</time>
+        <price>800</price>
+    </flight>
+</flights>
