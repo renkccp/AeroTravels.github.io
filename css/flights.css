@@ -1,0 +1,246 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-image: url(/AeroTralevs/photo/Aero.png);
+  display: flex;
+  flex-flow: column nowrap;
+  height: 650px;
+  width: 100%;
+  background-size: 100% 100%; /* Используем cover для лучшего отображения */
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #232323;
+  font-family: rubik !important;
+}
+main h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+}
+main #flightResults {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+main #flightResults p {
+  color: #fff;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  background-color: rgba(3, 16, 39, 0.32);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.flight-item {
+  color: #232323;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #232323;
+}
+.flight-item:hover {
+  background-color: #e0e0e0;
+}
+
+.flight-text {
+  text-align: left;
+  flex: 1;
+}
+
+.flight-time {
+  text-align: center;
+  flex: 1;
+}
+
+.flight-price {
+  text-align: right;
+  flex: 1;
+  font-weight: bold;
+}
+
+#bookingForm {
+  background-color: rgba(3, 16, 39, 0.32);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+  height: 63%;
+  border-radius: 40px;
+  margin: auto;
+  padding: 8px;
+}
+#bookingForm #selectedFlight {
+  text-align: center;
+  margin-top: 3px;
+  font-weight: 350;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #bookingForm #selectedFlight { /* Медиазапрос для экранов шириной 768 пикселей и меньше */
+    font-size: 20px; /* Уменьшаем размер текста */
+  }
+}
+@media (max-width: 480px) {
+  #bookingForm #selectedFlight { /* Медиазапрос для экранов шириной 480 пикселей и меньше */
+    font-size: 18px; /* Дополнительное уменьшение текста */
+  }
+}
+#bookingForm #formDetails {
+  margin-top: 8%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  float: left;
+  width: 100%;
+  backdrop-filter: blur(4px);
+  background-color: rgba(22, 22, 22, 0.29);
+  border-radius: 7px;
+}
+#bookingForm #formDetails #input1 {
+  margin: 10px;
+  color: #232323;
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+#bookingForm #formDetails #input1:nth-child(5n) {
+  justify-content: right;
+}
+#bookingForm #formDetails #input1 label {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+#bookingForm #formDetails #input1 input {
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+}
+#bookingForm #formDetails #input1 input::placeholder {
+  color: black;
+}
+#bookingForm #formDetails #input1 button {
+  border: none;
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: 350;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  background-color: #2B64C8;
+}
+@media (max-width: 1000px) {
+  #bookingForm #formDetails #input1 {
+    flex-flow: column;
+  }
+  #bookingForm #formDetails #input1 input, #bookingForm #formDetails #input1 button {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  #bookingForm {
+    height: 75%;
+  }
+}
+@media (max-width: 600px) {
+  #bookingForm {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+#confirmation {
+  background-color: rgba(3, 16, 39, 0.32);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.25);
+  font-family: rubik;
+  width: 30%;
+  height: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+}
+@media (max-width: 768px) {
+  #confirmation { /* Медиазапрос для экранов шириной 768 пикселей и меньше */
+    width: 40%; /* Уменьшаем размер текста */
+  }
+}
+@media (max-width: 480px) {
+  #confirmation { /* Медиазапрос для экранов шириной 480 пикселей и меньше */
+    width: 65%;
+    height: 30%; /* Дополнительное уменьшение текста */
+  }
+}
+#confirmation h2 {
+  text-align: center;
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #confirmation h2 { /* Медиазапрос для экранов шириной 768 пикселей и меньше */
+    font-size: 28px; /* Уменьшаем размер текста */
+  }
+}
+@media (max-width: 480px) {
+  #confirmation h2 { /* Медиазапрос для экранов шириной 480 пикселей и меньше */
+    font-size: 22px; /* Дополнительное уменьшение текста */
+  }
+}
+#confirmation p {
+  text-align: center;
+}
+#confirmation button {
+  text-align: center;
+  margin: 5% 24%;
+  border: none;
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: 350;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  background-color: #2B64C8;
+}/*# sourceMappingURL=flights.css.map */

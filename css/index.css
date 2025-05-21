@@ -1,0 +1,596 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+main .section1 {
+  background-image: url(/AeroTralevs/photo/Aero.png);
+  height: 650px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+}
+main .section1 div {
+  color: white;
+  font-family: rubik;
+  padding-left: 15%;
+  padding-top: 12%;
+  width: 80%;
+}
+main .section1 div h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+}
+main .section1 div .text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152%;
+}
+main .section1 div a {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: rgb(33, 32, 32);
+  margin-top: 20px;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
+}
+main .section1 div a h2 {
+  padding: 5% 8%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #23212a;
+}
+main .section1 div a:hover {
+  transform: scale(0.9);
+}
+@media (max-width: 1280px) {
+  main .section1 {
+    height: 550px;
+  }
+}
+@media (max-width: 860px) {
+  main .section1 {
+    height: 420px;
+  }
+}
+@media (max-width: 576px) {
+  main .section1 {
+    height: 320px !important;
+  }
+  main .section1 div {
+    padding-left: 16% !important;
+    padding-top: 24% !important;
+  }
+  main .section1 div a {
+    width: 36% !important;
+  }
+}
+main .section2 {
+  padding: 5px 20px;
+  padding-top: 50px;
+}
+main .section2 .container {
+  display: flex;
+  flex-flow: column wrap;
+}
+main .section2 .container .item {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: rubik;
+  justify-content: center;
+  width: 100%;
+}
+main .section2 .container .item .item1 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 420px;
+  margin-bottom: 40px;
+}
+main .section2 .container .item .item1 div {
+  margin-left: 50px;
+}
+main .section2 .container .item .item1 div h3 {
+  font-weight: 400;
+  font-size: 25px;
+  color: #1c1f35;
+  margin-top: 0;
+}
+main .section2 .container .item .item1 div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 152%;
+  color: #666c89;
+}
+main .section2 .container .item .item1 .i1 {
+  margin-left: 75px;
+}
+@media (max-width: 600px) {
+  main .section2 .container .item .item1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 420px) {
+  main .section2 .container .item .item1 {
+    width: 300px;
+  }
+}
+main .section3 {
+  display: flex;
+  justify-content: center;
+  background-image: url(/AeroTralevs/photo/Aero2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  height: 900px;
+  align-items: end;
+  padding: 0 20px;
+}
+main .section3 .container {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: rubik;
+  padding: 80px;
+  background-color: #fff;
+}
+main .section3 .container .main h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #1c1f35;
+}
+main .section3 .container .main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 152%;
+  color: #666c89;
+  margin-top: 0;
+}
+main .section3 .container .main .item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 15px 0;
+}
+main .section3 .container .main .item h3 {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #1c1f35;
+}
+main .section3 .container .photo {
+  vertical-align: auto;
+  margin-left: 50px;
+}
+main .section3 .container .photo img {
+  max-width: 550px;
+  max-height: 550px;
+}
+@media (max-width: 1280px) {
+  main .section3 {
+    margin-top: 0px;
+    background-image: none;
+    height: 400px;
+  }
+  main .section3 .container {
+    padding: 0;
+    width: 70%;
+  }
+  main .section3 .container p br {
+    display: none;
+  }
+  main .section3 .container .item {
+    flex-flow: column wrap;
+  }
+  main .section3 .container .photo {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  main .section3 {
+    height: 320px;
+  }
+  main .section3 .container {
+    padding: 0;
+    width: 90%;
+  }
+}
+main .customer-reviews {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  width: 100%;
+}
+main .customer-reviews .review-container {
+  width: 70%;
+  font-family: rubik;
+}
+main .customer-reviews .review-container .review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .customer-reviews .review-container .review-header h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #1c1f35;
+}
+main .customer-reviews .review-container .review-header .review-navigation {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+main .customer-reviews .review-container .review-header .review-navigation .prev-button, main .customer-reviews .review-container .review-header .review-navigation .next-button {
+  margin: 0 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+main .customer-reviews .review-container .review-header .review-navigation .prev-button:hover, main .customer-reviews .review-container .review-header .review-navigation .next-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+main .customer-reviews .review-container .reviews {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+main .customer-reviews .review-container .reviews .review-item {
+  flex: 0 0 100%;
+  background-color: #F4F4F4;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .customer-reviews .review-container .reviews .review-item .client {
+  display: flex;
+  align-items: center;
+}
+main .customer-reviews .review-container .reviews .review-item .client img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+main .customer-reviews .review-container .reviews .review-item .client .client-name h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #091242;
+}
+main .customer-reviews .review-container .reviews .review-item .client .client-name p {
+  margin: 0;
+  font-size: 14px;
+  color: #666c89;
+}
+main .customer-reviews .review-container .reviews .review-item p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666c89;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  main .customer-reviews .review-container {
+    width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  main .customer-reviews .review-container .review-header h2 {
+    font-size: 28px;
+  }
+}
+main .section5 {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  width: 100%;
+}
+main .section5 .container {
+  width: 72%;
+}
+main .section5 .container h2 {
+  text-align: center;
+  font-family: rubik;
+  font-weight: 600;
+  font-size: 35px;
+  color: #1c1f35;
+}
+main .section5 .container .main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+main .section5 .container .main figure {
+  height: 100%;
+  font-family: rubik;
+  background-color: #1C1F35;
+}
+main .section5 .container .main figure img {
+  width: 100%;
+  height: 100%;
+}
+main .section5 .container .main figure .links {
+  float: right;
+  padding: 6%;
+  background-image: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
+}
+main .section5 .container .main figure .links a {
+  text-decoration: none;
+  padding: 10%;
+  display: flex;
+}
+main .section5 .container .main figure .links a svg {
+  display: inline-block;
+}
+main .section5 .container .main figure .links a svg:hover {
+  transform: scale(0.9);
+}
+main .section5 .container .main figure figcaption {
+  margin-left: 5%;
+}
+main .section5 .container .main figure figcaption h4 {
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+main .section5 .container .main figure figcaption p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152%;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  main .section5 .container .main {
+    flex-flow: column;
+  }
+}
+@media (max-width: 600px) {
+  main .section5 .container {
+    width: 90%;
+  }
+}
+main .section6 {
+  width: 100%;
+}
+main .section6 .container {
+  padding: 30px 20px;
+  background-color: #091242;
+  width: 100%;
+  font-family: rubik;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+main .section6 .container .info .text {
+  width: 330px;
+  padding-bottom: 30px;
+}
+main .section6 .container .info .text h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+  margin: 0;
+}
+main .section6 .container .info .text p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 152%;
+  color: #fff;
+}
+main .section6 .container .info .social .item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 15px 0;
+}
+main .section6 .container .info .social .item p {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #fff;
+}
+main .section6 .container .form {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+}
+main .section6 .container .form form {
+  display: grid;
+  gap: 15px;
+}
+main .section6 .container .form form input {
+  width: 100%;
+  height: 50px;
+  background-color: #091242;
+  border: 1px solid rgba(244, 244, 244, 0.1294117647);
+}
+main .section6 .container .form form input::placeholder {
+  color: #fff;
+  padding: 5px;
+}
+main .section6 .container .form form textarea {
+  height: 90px;
+  width: 100%;
+  background-color: #091242;
+  border: 1px solid rgba(244, 244, 244, 0.1294117647);
+}
+main .section6 .container .form form textarea::placeholder {
+  color: #fff;
+  padding: 5px;
+}
+main .section6 .container .form form .knopka {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: rgb(33, 32, 32);
+  margin-top: 20px;
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
+  font-family: "Rubik", sans-serif; /* Укажите желаемый шрифт */
+  font-weight: 500; /* Установите нужный вес шрифта */
+  font-size: 16px; /* Установите нужный размер шрифта */
+}
+@media (max-width: 690px) {
+  main .section6 .container {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  main .section6 .container .form {
+    width: 54%;
+  }
+}
+@media (max-width: 580px) {
+  main .section6 .container .info {
+    width: 53%;
+  }
+  main .section6 .container .info .social svg {
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 400px) {
+  main .section6 .container .info {
+    width: 83%;
+  }
+  main .section6 .container .form {
+    width: 84%;
+  }
+}
+@media (max-width: 1200px) {
+  main h1 {
+    font-size: 54px !important;
+  }
+}
+@media (max-width: 992px) {
+  main h1 {
+    font-size: 46px !important;
+  }
+}
+@media (max-width: 768px) {
+  main h1 {
+    font-size: 34px !important;
+  }
+}
+@media (max-width: 576px) {
+  main h1 {
+    font-size: 24px !important;
+  }
+}
+@media (max-width: 992px) {
+  main h2 {
+    font-size: 34px !important;
+  }
+}
+@media (max-width: 768px) {
+  main h2 {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 576px) {
+  main h2 {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  main h3 {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 768px) {
+  main h4 {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 576px) {
+  main h4 {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 1200px) {
+  main p {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 992px) {
+  main p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 768px) {
+  main p {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 576px) {
+  main p {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 1200px) {
+  main .text {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 992px) {
+  main .text {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 768px) {
+  main .text {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 576px) {
+  main .text {
+    display: none !important;
+  }
+}
+@media (max-width: 1200px) {
+  main .knopka {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 992px) {
+  main .knopka {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  main .knopka {
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 576px) {
+  main .knopka {
+    font-size: 8px !important;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-image: url(/AeroTralevs/photo/Aero.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  width: 100%;
+  background-size: 100% 100%; /* Используем cover для лучшего отображения */
+  background-repeat: no-repeat;
+  padding: 0 20px;
+  color: white;
+  font-family: rubik !important;
+}
+main form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  background-color: rgba(3, 16, 39, 0.32);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 58px;
+  font-family: rubik;
+}
+main form h1 {
+  font-weight: 350;
+  font-size: 28px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+main form .inputs {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(22, 22, 22, 0.29);
+  height: 20%;
+  width: 95%;
+}
+main form .inputs .input1 {
+  width: 30%;
+}
+main form .inputs .input1:nth-child(4n) {
+  width: 8%;
+}
+main form .inputs .input1 .blocks {
+  width: 99%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1px;
+}
+main form .inputs .input1 .blocks .block {
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 10px;
+  width: 50%;
+}
+main form .inputs .input1 .blocks .block label {
+  padding: 3px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #b9b9b9;
+}
+main form .inputs .input1 .blocks .block input,
+main form .inputs .input1 .blocks .block select {
+  width: 60%;
+  height: 90%;
+  border: none;
+}
+main form .inputs .input1 #knopka {
+  margin-top: 18px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 12px;
+  background-color: #2b64c8;
+}
+
+@media (max-width: 1000px) {
+  main form .inputs {
+    flex-flow: column nowrap; /* Позволяем инпутам переходить на новую строку */
+    height: 55%;
+    width: 75%;
+  }
+  main form .inputs .input1 {
+    width: 95%;
+  }
+  main form .inputs .input1:nth-child(4n) {
+    width: 95%;
+  }
+  main form .inputs .input1 #knopka {
+    width: 98%;
+  }
+}
+@media (max-width: 520px) {
+  main {
+    height: 540px;
+  }
+  main form {
+    height: 95%;
+  }
+  main form .inputs {
+    height: 75%;
+  }
+  main form .inputs .input1 .blocks {
+    flex-flow: column nowrap;
+  }
+  main form .inputs .input1 .blocks .block {
+    width: 100%;
+  }
+}/*# sourceMappingURL=second.css.map */

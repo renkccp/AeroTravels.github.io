@@ -1,0 +1,39 @@
+/* Меньше 1200px */
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Меньше 992px */
+@media (max-width: 992px) {
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+/* Меньше 768px */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+
+/* Меньше 576px */
+@media (max-width: 576px) {
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 9px;
+    }
+}
