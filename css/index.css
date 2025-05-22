@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'rubik'; /* Название шрифта */
+    font-family: '..rubik'; /* Название шрифта */
     src: url('Rubik-Italic.ttf') format('ttf'), /* Путь к файлу */
 }
 html {
