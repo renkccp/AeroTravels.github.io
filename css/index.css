@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'rubik'; /* Название шрифта */
+    src: url('') format('woff2'), /* Путь к файлу */
+}
 html {
   width: 100%;
   height: 100%;
