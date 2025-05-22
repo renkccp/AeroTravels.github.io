@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'rubik'; /* Название шрифта */
-    src: url('../fonts/Rubik-Italic.ttf') format('ttf'); /* Путь к файлу */
+    src: url('./fonts/Rubik-Italic.ttf') format('ttf'); /* Путь к файлу */
 }
 html {
   width: 100%;
