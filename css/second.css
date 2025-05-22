@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  background-image: url(/AeroTralevs/photo/Aero.png);
+  background-image: url(../photo/Aero.png);
   display: flex;
   justify-content: center;
   align-items: center;
